@@ -1,0 +1,13 @@
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "dhhdpetlutils"
+version = "0.0.1"
+authors = [
+  { name="DataHub", email="author@example.com" },
+]
+description = "dh-hdp-etl-utils"
+readme = "README.md"
+requires-python = ">=3.11"
