@@ -6,21 +6,21 @@ A package to share dh-hdp-etl utils classes and functions between different code
 
 ```
 pydantic
-dhpackageutils @ git+https://github.com/JonathanMELIUS/package-utils
+dhhdpetlutils @ git+https://github.com/MaastrichtUniversity/dh-hdp-etl-utils
 pytest
 ```
 
 Specify a commit hash (2c5d54504a3ece5ed45bb9634a0ed6c5f77cbe98):
 ```
-dhpackageutils @ git+https://github.com/JonathanMELIUS/package-utils@2c5d54504a3ece5ed45bb9634a0ed6c5f77cbe98
+dhhdpetlutils @ git+https://github.com/MaastrichtUniversity/dh-hdp-etl-utils@2c5d54504a3ece5ed45bb9634a0ed6c5f77cbe98
 ```
 
 Specify a branch name (main):
 ```
-dhpackageutils @ git+https://github.com/JonathanMELIUS/package-utils@main
+dhhdpetlutils @ git+https://github.com/MaastrichtUniversity/dh-hdp-etl-utils@main
 ```
 
 Specify a tag (v0.0.1):
 ```
-dhpackageutils @ git+https://github.com/JonathanMELIUS/package-utils@v0.0.1
+dhhdpetlutils @ git+https://github.com/MaastrichtUniversity/dh-hdp-etl-utils@v0.0.1
 ```
