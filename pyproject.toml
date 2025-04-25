@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 name = "dhhdpetlutils"
 version = "0.1.0"
 authors = [
-  { name="DataHub", email="author@example.com" },
+  { name="DataHub Maastricht" },
 ]
 description = "dh-hdp-etl-utils"
 readme = "README.md"
