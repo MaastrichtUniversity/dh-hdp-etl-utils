@@ -20,9 +20,6 @@ jobs:
           pip install pylint
       - name: Analysing the code with pylint
         run: |
-          # Use locally --disable=R0801,C0301 to better visualize the actual warnings/errors. This will have to be fixed in the future (TODO)
-          # R0801: duplicate-code 
-          # C0301: Line too long 
           pylint --max-line-length=120 --fail-under=8 --output-format=colorized $(git ls-files '*.py')
       - name: Report Status to Daniel
         if: ${{ always() && github.event.pusher.name == 'danieltheunissen' }}
