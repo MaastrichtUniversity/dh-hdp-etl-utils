@@ -32,7 +32,8 @@ git push origin v0.1.0
 ```
 ### Update version in `requirements.txt`
 
-After the tag has been created/updated and pushed to the repository, the package version in `requirements.txt` has to be updated for the relevant repositories. For this specific pacakge those are `dh-hdp-federation-api` and `dh-hdp-etl`.
+After the tag has been created/updated and pushed to the repository, the package version in `requirements.txt` has to be updated for the relevant repositories.
+For this specific package those are `dh-hdp-federation-api` and `dh-hdp-etl`.
 
 ```
 pydantic
