@@ -19,20 +19,3 @@ class Nodenames(ExtendedStrEnum):
     MUMC = "mumc"
     ZIO = "zio"
     ENVIDA = "envida"
-
-
-class LogAuditTrailTopics(ExtendedStrEnum):
-    """Enumerate the supported topics for all logs"""
-
-    EXTRACT = "Extract"
-    LOAD = "Load"
-    TRANSFORM = "Transform"
-
-
-class LogLevelTags(ExtendedStrEnum):
-    """Enumerate the supported topics for audit trail logs"""
-
-    INFO = "INFO"
-    AUDIT_TRAIL = "AUDIT_TRAIL"
-    WARNING = "WARNING"
-    ERROR = "ERROR"
