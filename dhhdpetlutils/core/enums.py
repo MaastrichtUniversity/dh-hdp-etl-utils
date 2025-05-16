@@ -19,3 +19,4 @@ class Nodenames(ExtendedStrEnum):
     MUMC = "mumc"
     ZIO = "zio"
     ENVIDA = "envida"
+    VITALA = "vitala"
